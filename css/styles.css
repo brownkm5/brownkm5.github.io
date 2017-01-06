@@ -39,10 +39,19 @@
 }
 
 /*projects*/
-#projects .container{
+/*#projects .container{
   background-color: rgb(245, 242, 240);
   padding: 2%;
   border-radius: 15px;
+}*/
+.details {
+  color: #ffab40;
+}
+.details:hover {
+  color: #ffd8a6;
+}
+.title {
+  text-align: center;
 }
 .card-content i {
   margin-top: 12px;
@@ -74,4 +83,15 @@
   background-position: center center;
   background-repeat: no-repeat;
   height: 500px;
+}
+
+/*footer*/
+#contact {
+  text-align: center;
+}
+#contact a {
+  margin-right: 30px;
+}
+.fa {
+  color: white;
 }
