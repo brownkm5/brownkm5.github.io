@@ -33,8 +33,12 @@ body {
 
 nav {
   position: fixed;
+  z-index: 999;
+  background-color: rgb(41,	182,	246);
 }
-
+.body {
+  z-index: 1;
+}
 /*mobile nav*/
 #nav-mobile {
   background-color: rgb(84,	110,	122);
